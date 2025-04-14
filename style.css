@@ -1,0 +1,176 @@
+* {margin:0px;padding:0px;list-style:none;}
+body{background-image: url(my\ img.webp);
+    font: optional;font-family: Arial, Helvetica, sans-serif;}
+.mm{width: 400px;height: 600px; margin: auto; border: 3px solid black;background-image: url(couv.png);background-size: cover;box-shadow:0px 0px 20px 0px grey;}
+footer{border: 3px solid black;background-color:gray;text-align: center;height: 60px;padding-top: 30px;}
+@media screen {(max-width: 780px;)
+    .mm{width: 50%;}
+
+    
+}
+nav ul{display: flex;margin: 0px 10px 0px 10px;padding: 20px;
+box-sizing: border-box;justify-content: space-around;}
+nav a{color: aliceblue; font-family: monospace;text-decoration: none;
+ text-shadow: 0px 0px 10px 0px black;font-size: 14px;}
+.home{font-style: normal;font-weight: 700;}
+.navbar{margin:auto;width: 100%;border: 1px solid gray;background-color: grey;opacity:;}
+.hm:hover{border-top:5px solid rgb(2, 102, 2);background-color:rgb(236, 100, 8,);opacity:0.7;}
+.ar:hover{border-top:5px solid rgb(252, 175, 8);background-color:rgb(0, 0, 0);opacity:0.7;}
+.cn:hover{border-top:5px solid rgb(38, 0, 255);background-color:rgb(236, 8, 8);opacity:0.7;}
+.lv:hover{border-top:5px solid rgb(15, 1, 24);background-color:rgb(66, 58, 73);opacity:0.7;}
+
+p{/*{color: #fff; font-family: 'Courier New', Courier, monospace;font-size: 18px; font-weight: bold;font-style:oblique;*//* Import d'une jolie police depuis Google Fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+    
+    font-family: 'Open Sans', sans-serif; /* Police moderne et lisible */
+      font-size: 1.1rem; /* Taille confortable */
+     line-height: 1.6; /* Espacement entre les lignes pour une bonne lisibilité */
+       color: #ffffff; /* Couleur sombre mais pas trop noire pour un meilleur confort visuel */
+      /*background-color: #f9f9f9;  Léger fond pour faire ressortir le texte */
+      padding: 1rem; /* Un peu d'espace autour du texte */
+     /* border-radius: 8px; /* Coins arrondis pour un effet doux */
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* Légère ombre pour la profondeur */
+      margin-bottom: 1.5rem; /* Espace entre les paragraphes */}
+span{font-size: 18px;font-family: monospace;font-weight: bold;font-style: italic;color: #fff1f1;text-decoration: underline;
+text-shadow: 0px 0px 30px 0px gray;}
+.cff{font-size: 16px; font-weight: bold;font-style: italic;color:#0a0505;}
+h3,u {text-align: center; font-size: 30px;font-weight: bold;text-transform: capitalize;color: white;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-weight: bold;
+    font-style: italic;text-decoration: underline;}
+dl{font-weight: bold;text-transform: capitalize;color: white;font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;}
+dt{color: #fae8e8;
+    }
+h4,.cff{color: #fae8e8;font-size: 14px; text-decoration: underline;}
+.list{margin: 0px auto;padding: 0px 50px 0px 800px;}
+.para{margin: 0px auto;padding: 0px 50px 0px 400px;}
+.MANA{margin: 0px auto;padding: 0px 50px 0px 200px;}
+.RARA{margin: 0px auto;padding: 0px 50px 0px 600px;}
+.FAFA{margin: 0px auto;padding: 0px 50px 0px 150px;}
+.QAQA{margin: 0px auto;padding: 0px 50px 0px 500px;}
+dt{font-size: x-large;font-weight: bolder;font-style: italic;}
+.myliv{display:inline;margin: 0px 200px;padding-bottom: 400px;}
+
+
+/* Mobile (smartphones) */
+@media screen and (max-width: 768px) {
+    body {
+      padding: 10px;
+      font-size: 16px;
+    }
+  
+    header, footer {
+      text-align: center;
+      padding: 10px;
+    }
+  
+    .list, .tisl, .para, .MANA  , .RARA  ,.FAFA, .QAQA, .livress, .myliv {
+      width: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+  
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+    }
+  
+    nav ul li {
+      margin: 10px 0;
+    }
+  
+    .desc, button {
+      width: 100%;
+      padding: 12px;
+      font-size: 18px;
+    }
+  
+    #cn,#coo {
+      font-size: 1.5em;
+    }
+  }
+ .contact{
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+   background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .contact-section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+  }
+  
+  form {
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  input, textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 12px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  #confirmationMessage {
+    color: green;
+    font-size: 14px;
+  }
+  
+  .contact-info {
+    flex: 1 1 300px;
+  }
+  
+  .contact-info a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-container {
+      flex-direction: column;
+    }
+  }
+  
+
+
